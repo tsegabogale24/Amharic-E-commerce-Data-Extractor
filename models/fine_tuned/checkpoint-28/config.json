@@ -1,0 +1,56 @@
+{
+  "adapters": {
+    "adapters": {},
+    "config_map": {},
+    "fusion_config_map": {},
+    "fusions": {}
+  },
+  "architectures": [
+    "XLMRobertaForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "classifier_dropout": null,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 1024,
+  "id2label": {
+    "0": "B-LOC",
+    "1": "B-PRICE",
+    "2": "B-PRODUCT",
+    "3": "B-Product",
+    "4": "I-LOC",
+    "5": "I-PRICE",
+    "6": "I-PRODUCT",
+    "7": "I-Product",
+    "8": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 4096,
+  "label2id": {
+    "B-LOC": 0,
+    "B-PRICE": 1,
+    "B-PRODUCT": 2,
+    "B-Product": 3,
+    "I-LOC": 4,
+    "I-PRICE": 5,
+    "I-PRODUCT": 6,
+    "I-Product": 7,
+    "O": 8
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "xlm-roberta",
+  "num_attention_heads": 16,
+  "num_hidden_layers": 24,
+  "output_past": true,
+  "pad_token_id": 1,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.52.4",
+  "type_vocab_size": 1,
+  "use_cache": true,
+  "vocab_size": 250002
+}
